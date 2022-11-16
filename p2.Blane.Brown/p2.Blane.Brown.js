@@ -142,29 +142,6 @@ class Reminders extends Drag {
 
         })
 
-
-        // for (let i = 0; i < events.length; i++) {
-        //     fill(230)
-        //     rect(elp, etp + (i * gap), 360, 40, 12)
-
-        //     // change cirlce color based on if event has passed or not
-        //     let hours = events[i].substring(0, events[i].indexOf(":"))
-        //     let minutes = events[i].substring(events[i].indexOf(":") + 1, events[i].indexOf("m") - 1)
-        //     if ((events[i].substring(events[i].indexOf("m") - 1, events[i].indexOf("m") + 1)) == "pm") {
-        //         hours = Number(hours) + 12
-        //     }
-        //     if (hours < today.getHours() || (hours == today.getHours() && minutes <= today.getMinutes())) {
-        //         fill(210, 50, 50)
-        //         ellipse(elp + 20, etp + 20 + (i * gap), 15, 15)
-        //         fill(120)
-        //     } else {
-        //         fill(50, 210, 50)
-        //         ellipse(elp + 20, etp + 20 + (i * gap), 15, 15)
-        //         fill(0)
-        //     }
-        //     text(events[i], elp + 40, etp + 27 + (i * gap))
-        // }
-
     }
 
 }
@@ -352,7 +329,7 @@ class Weather extends Drag {
                     }
                     textStyle("normal")
 
-                    // get high and low events[i].indexOf("m") - 1, events[i].indexOf("m") + 1)
+                    //get high and low temps
                     const high = forecast[i].temperature
                     const low = forecast[i + 1].temperature
 
@@ -380,6 +357,7 @@ class News extends Drag {
         this.lp = leftPos
         this.color = colorTheme
         this.news = []
+        // all other stories loaded from json file
         this.story = {
             "id": "1",
             "source": "BBC News",
@@ -610,7 +588,6 @@ async function getTemp() {
     const response = await fetch('https://api.weather.gov/gridpoints/LUB/48,32/forecast/hourly');
     const json = await response.json()
     temp = json.properties.periods[0].temperature
-    //let curr_short_forecast = json.properties.periods[0].shortForecast
 }
 
 async function getForecast() {
