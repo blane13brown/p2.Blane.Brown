@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "eventTitle": "Job Interview",
+        "eventTimeHour": "8",
+        "eventTimeMinutes": "0",
+        "eventTime": "am"
+    },
+    {
+        "id": "2",
+        "eventTitle": "Breakfast with Mom",
+        "eventTimeHour": "9",
+        "eventTimeMinutes": "45",
+        "eventTime": "am"
+    },
+    {
+        "id": "3",
+        "eventTitle": "Dinner with Madison",
+        "eventTimeHour": "5",
+        "eventTimeMinutes": "0",
+        "eventTime": "pm"
+    },
+    {
+        "id": "4",
+        "eventTitle": "Movies with Brittany",
+        "eventTimeHour": "11",
+        "eventTimeMinutes": "45",
+        "eventTime": "pm"
+    }
+]

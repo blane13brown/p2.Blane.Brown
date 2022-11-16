@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "source": "BBC News",
+        "publishTime": "17 hours ago",
+        "story": "Texas has experienced historically \ndrastic drops in temperature over the \nyears the most notorious being the \nGreat Blizzard of 1899."
+    },
+    {
+        "id": "2",
+        "source": "ABC News",
+        "publishTime": "4 hours ago",
+        "story": "NTSB joins investigation into fatal \nplane collision at Texas airshow. \nInvestigators searching for any clues \nthat may have lead to the crash."
+    },
+    {
+        "id": "3",
+        "source": "CNN",
+        "publishTime": "2 hours ago",
+        "story": "Veterinarians discover highly-\ncontagious canine influenza in Central \nTexas. There is a “decent-sized \noutbreak” of the H3N2 strain."
+    }
+]

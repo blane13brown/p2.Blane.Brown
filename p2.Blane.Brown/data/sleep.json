@@ -1,0 +1,16 @@
+[
+    {
+        "id": "1",
+        "date": "week1",
+        "deepSleep": 132,
+        "remSleep": 64,
+        "totalSleep": 497
+    },
+    {
+        "id": "2",
+        "date": "week2",
+        "deepSleep": 152,
+        "remSleep": 89,
+        "totalSleep": 478
+    }
+]
